@@ -5,7 +5,7 @@ The use-case of this Janitor over others is mainly if there are multiple categor
 
 Instead of making N separate janitors, 1 class with named libraries can accomplish the same as others.
 
-API:
+# API:
 
 ## Constructor
 
