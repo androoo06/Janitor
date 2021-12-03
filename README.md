@@ -22,6 +22,11 @@ Janitor:RemoveLibrary(name)
 * cleans and removes the library with the given name.
   - will throw an error if library has not been created.
 
+Janitor:Add(object,library)
+* will add the object (given it is not nil) to the given library
+  - will throw an error if either the object or library is nil
+  - to add to the default library, use "Default" as the library argument.
+
 Janitor:Clean([optional] library)
 * cleans the library with the provided name (but will not remove it)
   - if no library is provided, Janitor will clean and remove all libraries
