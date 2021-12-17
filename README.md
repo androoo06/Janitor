@@ -34,7 +34,9 @@ Janitor:Add(object, [optional] library)
   - will use the "Default" library if the library argument is nil.
   - supported object types are:
     > any primitive types
+    
     > tables
+    
     > instances
 
 Janitor:Clean([optional] library)
