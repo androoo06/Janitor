@@ -5,6 +5,10 @@ The use-case of this Janitor over others is mainly if there are multiple categor
 
 Instead of making N separate janitors, 1 class with named libraries can accomplish the same as others.
 
+### Destroyed Module
+This basic module can be used in unison with the janitor or on its own; its purpose is to provide an rbxscriptsignal (event) to monitor an Instance's destruction, whether
+it be through use of Instance:Destroy() or "natural cause destructions." Further documentation can be found in the module itself (Destroyed.lua)
+
 # API:
 
 ## Constructor
