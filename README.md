@@ -19,7 +19,7 @@ Janitor.new(...) :Janitor
 * there will also be 1 library created regardless of the arguments passed in the constructor, named "Default".
 
 ## Methods
-### **All methods are Void.**
+### **All methods are Void by nature but will return [true] if an error occurs.**
 Janitor:CreateLibrary(name)
 * creates a new category of tasks with the given name.
   - will produce a warning and return true if library is already created.
